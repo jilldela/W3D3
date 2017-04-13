@@ -1,0 +1,9 @@
+
+puts "Input your email"
+email = gets.chomp
+
+User.create(email: email)
+
+puts "What do you want from me?"
+puts "0. Create shortened URL"
+puts "1. Visit shortened URL"
